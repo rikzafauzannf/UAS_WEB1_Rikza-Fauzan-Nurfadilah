@@ -1,0 +1,143 @@
+body{
+  background-image: url("../IMG/BGC.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color : white;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu";
+}
+.judulRikzaFauzan{
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.judulRikzaFauzan h1{
+  font-weight: 400;
+}
+
+.isiRikzaFauzan{
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: inline-block;
+  position: relative;
+}
+
+.isiRikzaFauzan .kiriRikzaFauzan img{
+  border-radius: 13px;
+  width: 30%;
+  float: left;
+}
+
+.isiRikzaFauzan .kananRikzaFauzan{
+  background-color: rgba(255, 255,255, 30%);
+  border-radius: 13px;
+  padding: 15px;
+  width: 65%;
+  float:right;
+}
+
+.isiRikzaFauzan :hover{
+  color:black;
+}
+
+.linkRikzaFauzan{
+  text-decoration: none;
+  color :white;
+}
+
+.isiRikzaFauzan img{
+  width: 50%;
+  border-radius: 13px;
+  box-shadow: 0px 0px 2px 2px;
+}
+button{
+  width: 30%;
+  padding: 10px;
+  border-radius: 13px;
+  margin-bottom: 20px;
+  border: none;
+}
+.leaflet-container {
+  height: 400px;
+  width: 600px;
+  max-width: 100%;
+  max-height: 100%;
+}
+#mapRikzaFauzan{
+  width: 750px;
+  height: 400px;
+}
+
+footer{
+  background-color: white;
+  margin-top: 20px;
+  color: rgb(23, 21, 21);
+  padding-bottom: 40px;
+}
+
+.isiRikzaFauzan .formRikzaFauzan{
+  margin-bottom: 40px;
+}
+
+.isiRikzaFauzan .formRikzaFauzan button{
+  width: 80%;
+  background-color:skyblue;
+}
+.isiRikzaFauzan .formRikzaFauzan input{
+  width: 50%;
+  padding: 10px;
+  border-radius: 13px;
+  border: none;
+}
+
+.isiRikzaFauzan .formRikzaFauzan textarea{
+  padding: 10px;
+  border-radius: 13px;
+  border: none;
+}
+
+#lihattanggapanRikzaFauzan{
+  margin-bottom: 20px;
+}
+
+.tanggapanRikzaFauzan{
+  background-color: rgba(255, 255,255, 30%);
+  border-radius: 13px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tanggapanRikzaFauzan table{
+  width: 100%;
+}
+
+.isiRikzaFauzan ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: -200px;
+}
+.isiRikzaFauzan ul li button{
+  width: 100%;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+button:hover{
+  background-color: lightblue;
+  color: white;
+  width: 50%;
+  transition: 0.5s;
+}
+.isiRikzaFauzan .formRikzaFauzan button {
+  width: 20%;
+  margin: 20px;
+}
